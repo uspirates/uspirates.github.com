@@ -218,18 +218,11 @@ p.header {
 
 <<<<<<< HEAD
 =======
-h1.header {
-	font-family: 'Arvo', sans-serif;
-	font-size: 30px;
-	font-weight: 300;
-	line-height: 1.3em;
-	border-bottom: none;
-	margin-top: 0;
-}
+
 
 
 >>>>>>> d61b144d44000a137f7f0f2249ee71f5c65c5f3b
-h1.header, a.header, a.name, header a{
+a.name, header a{
 	color: #fff;
 }
 
@@ -403,10 +396,10 @@ footer {
     font-size:12pt;
     color:#444;
   }
-<<<<<<< HEAD
 }
 
 h1.header {
+  color: #000;
   font-family: 'Arvo', sans-serif;
   font-size: 20px !important;
   font-weight: 300;
@@ -414,6 +407,3 @@ h1.header {
   border-bottom: none;
   margin-top: 0;
 }
-=======
-}
->>>>>>> d61b144d44000a137f7f0f2249ee71f5c65c5f3b
