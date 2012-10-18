@@ -216,13 +216,10 @@ p.header {
 	font-size: 16px;
 }
 
-<<<<<<< HEAD
-=======
-
 
 
 >>>>>>> d61b144d44000a137f7f0f2249ee71f5c65c5f3b
-a.name, header a{
+h1.header, a.header, a.name, header a{
 	color: #fff;
 }
 
@@ -235,6 +232,7 @@ a.name {
 }
 
 header ul {
+  color:#fff;
   list-style:none;
   padding:0;
 }
@@ -248,29 +246,29 @@ header li {
 	padding: 6px 6px 6px 7px;
 
 	background: #AF0011;
-	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: linear-gradient(top, #AF0011 0%,#820011 100%);
+	background: -moz-linear-gradient(top, #585858 0%, #000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#585858), color-stop(100%,#000));
+  background: -webkit-linear-gradient(top, #585858 0%,#000 100%);
+  background: -o-linear-gradient(top, #585858 0%,#000 100%);
+  background: -ms-linear-gradient(top, #585858 0%,#000 100%);
+  background: linear-gradient(top, #585858 0%,#000 100%);
   
 	border-radius:4px;
   border:1px solid #0D0D0D;
 
-	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(2, 39, 233, 1);;
+	box-shadow: inset 0px 1px 1px 0 rgba(2, 39, 233, 1);;
 	
 }
 
 header li:hover {
 	background: #C3001D;
-	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: linear-gradient(top, #C3001D 0%,#950119 100%);
+	background: -moz-linear-gradient(top, #505050 0%, #000 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#505050), color-stop(100%,#000));
+  background: -webkit-linear-gradient(top, #505050 0%,#000 100%);
+  background: -o-linear-gradient(top, #505050 0%,#000 100%);
+  background: -ms-linear-gradient(top, #505050 0%,#000 100%);
+  background: linear-gradient(top, #505050 0%,#000 100%);
 }
 
 a.buttons {
@@ -289,6 +287,21 @@ a.github {
 a.buttons:hover {
 	color: #fff;
 	text-decoration: none;
+}
+
+<<<<<<< HEAD
+=======
+h1.header {
+  color:#000;
+  font-family: 'Arvo', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.3em;
+  border-bottom: none;
+  margin-top: 0;
+}
+.header {
+  color: #000;
 }
 
 
@@ -396,10 +409,10 @@ footer {
     font-size:12pt;
     color:#444;
   }
+<<<<<<< HEAD
 }
 
 h1.header {
-  color: #000;
   font-family: 'Arvo', sans-serif;
   font-size: 20px !important;
   font-weight: 300;
@@ -407,3 +420,6 @@ h1.header {
   border-bottom: none;
   margin-top: 0;
 }
+=======
+}
+>>>>>>> d61b144d44000a137f7f0f2249ee71f5c65c5f3b
