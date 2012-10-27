@@ -2,4 +2,4 @@
 git pull
 git add .  
 git commit -m "Auto Commit Log Update - Logbot"
-git push origin master
+git push origin master -f
