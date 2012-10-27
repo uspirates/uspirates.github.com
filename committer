@@ -1,5 +1,5 @@
-#!/bin/bash  
-git pull
-git add .  
+#!/bin/bash
+cd /home/usppbot/uspirates.github.com/
+git add _posts/logs/*
 git commit -m "Auto Commit Log Update - Logbot"
 git push origin master -f
