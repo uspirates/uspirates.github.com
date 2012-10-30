@@ -427,13 +427,27 @@ h1.header {
 =======
 }
 
-.logitem {
-list-style-type:none;
-}
 
 .logitem:target {
 list-style-type:none;
 background: #ffffee;
-content:"&amp; #187;";
+}
+
+.logitem a:target {
+background: #ffffee;
+content:"";
+padding:5px;
+margin-left:10px;
+}
+.logitem a:target:before {
+background: #ffffee;
+content:"> ";
+}
+.logitem a:target:after {
+background: #ffffee;
+content:" <";
+}
+section {
+  list-style-type:none;
 }
 >>>>>>> d61b144d44000a137f7f0f2249ee71f5c65c5f3b
